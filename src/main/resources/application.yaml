@@ -1,0 +1,13 @@
+twitter:
+  access-token: ${APP_TWITTER_ACCESS_TOKEN}
+  access-token-secret: ${APP_TWITTER_ACCESS_TOKEN_SECRET}
+  consumer-key: ${APP_TWITTER_CONSUMER_KEY}
+  consumer-secret: ${APP_TWITTER_CONSUMER_SECRET}
+  users: ${APP_TWITTER_USERS}
+
+com:
+  giovannymassuia:
+    quarkus:
+      twitterreader:
+        services:
+          SlackService/mp-rest/url: ${APP_SLACK_WEB_HOOK_URL}
